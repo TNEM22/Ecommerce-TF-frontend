@@ -1,0 +1,22 @@
+/* For Chrome/Safari */
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: auto;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background: #0f766e; /* e.g., teal-700 */
+  border-radius: 9999px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+/* For Firefox */
+input[type="range"]::-moz-range-thumb {
+  pointer-events: auto;
+  height: 16px;
+  width: 16px;
+  background: #0f766e;
+  border-radius: 9999px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
